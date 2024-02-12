@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.msgbox{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(228, 235, 231);
+}
+
+.leftmsgbox{
+    background-color: azure;
+    width: 35%;
+    border-right: 1px solid black;
+}
+
+.leftheader{
+    display: flex;
+    padding: 15px 10px;
+    border-bottom: 1px solid gainsboro;
+    background-color: #f9f9f9;
+}
+
+.leftheader img{
+    border-radius: 50%;
+    margin-right: 3%;
+    width: 60px;
+}
+
+.leftheader h4{
+    padding: 1%;
+}
+
+.leftheader h4 span{
+    display: block;
+    font-size: small;
+    font-weight: 200;
+}
+
+.msgsearch{
+    padding: 0 3%;
+    border-bottom: 1px solid gainsboro;
+   
+}
+
+.msgperson{
+    background-color:  #f9f9f9;
+    height: 800px;
+    width: 100%;
+    overflow: scroll;
+}
+
+.msgperson .perpersonmsg{
+    display: flex;
+    padding: 2%;
+    border-bottom: 0.1px solid rgb(171, 173, 172) ;
+    border-bottom-left-radius: 20px;
+   
+}
+.msgperson .perpersonmsg span{
+    display: block;
+    font-size: small;
+    font-weight: 200;
+}
+
+.msgperson .perpersonmsg img{
+    border-radius: 50%;
+    margin-right: 2%;
+    width: 50px;
+}
+
+.msgperson .perpersonmsg:hover{
+    background-color: rgb(236, 243, 241);
+}
+
+.rightmsgbox{
+    width: 65%;
+}
+
+.rightmsgbox .rightmsgheader{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 4px 6px -6px #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5%;
+    
+}
+
+.rightmsgbox .rightmsgheader img{
+    width: 30px;
+    border-radius: 50%;
+}
+
+.rightmsgbox .rightmsgheader h6{
+    margin-top: 5px;
+}
+
+.rightmsgbox .rightmsgsection{
+    padding: 30px;
+}
+
+.textareamsg{
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.rightmsgsection i{
+   font-size: x-large
+}
+
+.rightmsgbox .msglist{
+    width: 100%;
+
+}
+
+.rightscrollsection{
+    height: 95%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.msglist{
+    display: flex;
+    padding: 10px;
+    align-items: flex-end;
+    width: 100%;
+
+}
+
+.msglist img{
+    border-radius: 50%;
+    width: 45px;
+    height : 45px
+}
+
+.msglist .msglistmsg{
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 100px 40px 40px 0px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+
+ 
