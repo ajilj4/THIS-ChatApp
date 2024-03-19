@@ -4,6 +4,7 @@ import moment from 'moment';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Form from 'react-bootstrap/Form';
 import './message.css'
+import logobg from './chactbg.png'
 import { Userdetail } from "./userdetails";
 
 
@@ -31,12 +32,11 @@ const Contactus = () => {
       
       if(window.innerWidth<900){
       document.getElementById('leftmsgbox').style.display='none'
-      if (element == null){
-        element.style.display='block'
+      element.style.display='block'
       }
         
       // document.getElementById('rightmsgbox').style.width='100%'
-    }}
+    }
   }
 
   const textareaRef = useRef("hiii");
@@ -169,7 +169,7 @@ const Contactus = () => {
               })}          </div>
 
           </div>
-        </div> : <img className="rightimg" src="https://static.vecteezy.com/system/resources/previews/023/122/579/original/mobile-chat-app-tiny-people-chatting-in-mobile-smartphone-screen-online-communication-social-networking-messages-speech-bubbles-modern-flat-cartoon-style-illustration-on-white-background-vector.jpg" alt="bg" />}
+        </div> : <img className="rightimg" src={logobg} alt="bg" />}
       </div>
     </div>
   )
