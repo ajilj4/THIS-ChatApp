@@ -1,0 +1,167 @@
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menubox {
+    background-color: white;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 10px rgb(71, 71, 38);
+    margin: 20px; 
+}
+
+
+
+.menubox button {
+    border: none;
+}
+
+.menubox i {
+    padding: 20px 50px;
+}
+
+.menubox button,
+i:hover {
+    background-color: rgb(205, 191, 191);
+}
+
+
+
+.menubox img {
+    width: 30px;
+   
+ } 
+
+.menubox span {
+    padding: 20px 50px;
+}
+
+.menubox span:hover {
+    background-color: rgb(205, 191, 191);
+}
+
+#logo {
+    margin-left: 50px;
+
+    filter: drop-shadow(3px 2px #0a0a0b);
+}
+
+.box {
+    position: relative;
+}
+
+.time {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translateX(-50%);
+    z-index: 2;
+    /* background-color: white; */
+}
+
+/* .empty{
+   width: 50px;
+   color: bisque;
+   display: inline-block;
+   height: 100vh;
+   /* display: flex;
+   flex-direction: column; */
+
+#feedback-style {
+    writing-mode: vertical-rl;
+    position: fixed;
+    left: 0px;
+    top: 50%;
+    border-radius: 0 5px 5px 0;
+    transform: translateX(-3px);
+    color: white;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    padding: 12px 10px 12px 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: var(--hjFeedbackAccentColor, #f4364c) !important;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    opacity: 0.96;
+    width: 40px;
+    z-index: 99;
+}
+
+#feedback-style:hover {
+    transform: translateX(0px);
+    box-shadow: 0 0 10px #463939;
+}
+
+.formfeed {
+    margin-top: 10%;
+}
+
+.menubox {
+    box-shadow: 0 0 10px rgb(71, 71, 38);
+
+}
+
+.profilepic {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.profilepic i {
+    margin: 22px;
+    font-size: 60px;
+    position: absolute;
+}
+
+.comnprofile h5 {
+    padding: 10px
+}
+
+.comnprofile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socialmedias{
+   position: fixed;
+   bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+.socialmedias a i{
+   margin: 35px;
+}
+.slidenav:hover{
+   width: 100%;
+   background-color: antiquewhite;
+}
+
+.aligntextnav{
+   width: 100%;
+   height: calc(950px - 400px);
+   padding-left: 10px;
+   font-size: larger;
+}
+
+@media only screen and (max-width:900px){
+    #logo{
+        margin-left: 0;
+    }
+}

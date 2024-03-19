@@ -14,6 +14,7 @@
 .leftmsgbox{
     background-color: azure;
     width: 35%;
+    /* height: 90vh; */
     border-right: 1px solid black;
 }
 
@@ -78,6 +79,7 @@
 
 .rightmsgbox{
     width: 65%;
+    
 }
 
 .rightmsgbox .rightmsgheader{
@@ -150,5 +152,32 @@
     letter-spacing: 1px;
 }
 
+.msglistmsg{
+    max-width: 70%;
+}
 
+#limitset{
+    text-wrap: wrap;
+    display: inline-block;
+    
+}
+
+.rightimg{ 
+    object-fit: cover;
+    width: 100%;
+    height: auto
+}
+.border-img{
+    border: 1px solid black;
+}
  
+@media only screen and (max-width:900px){
+    
+    .rightmsgbox,.rightimg{
+        display: none;
+    }
+    .leftmsgbox{
+        width: 100%;
+    }
+    
+}
